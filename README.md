@@ -14,7 +14,7 @@
     </a>
     <!-- Build Status  -->
     <a href="https://github.com/fogfish/ring/actions/">
-      <img src="https://github.com/fogfish/ring/workflows/build/badge.svg" />
+      <img src="https://github.com/fogfish/ring/workflows/test/badge.svg" />
     </a>
     <!-- GitHub -->
     <a href="http://github.com/fogfish/ring">
