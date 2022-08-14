@@ -47,6 +47,7 @@ The concept of [consistent hashing](https://en.wikipedia.org/wiki/Consistent_has
 
 The ultimate consistent hashing uses unrelated algorithms for **partition**, **allocation** and **routing**. The hash address space `2ᵐ-1` is divided into Q equally sized shards. Each node claims about Q/N shards with the help of T pseudo-randomly assigned tokens. The tokens are mapped into the hash address space to claim governance of shards to the node. When a node leaves the system, its shards are consistently distributed to the remaining nodes. Similarly, when a node joins the system it "steals" shards from nodes in the system in consistent ways. The request routing procedure maps the key into the hash space to determine the shard and corresponding node.
 
+See [details about the data structure and algorithm](./doc/consistent-hashing-the-rings-of-power-2.pdf).
 
 ## Installing 
 
