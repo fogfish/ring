@@ -33,8 +33,11 @@
 
 ---
 
+>
 > One Ring to rule them all, One Ring to find them,
+>
 > One Ring to bring them all and in the darkness bind them...
+>
 
 The type `ring` implements consistent hashing data structure to orchestrate the topology without the global coordinator in the distributed environment. The library is developed after [Erlang's consistent hashing data structure](https://github.com/fogfish/datum/blob/master/src/sets/ring.erl), which has been battle tested by author in various contexts. 
 
