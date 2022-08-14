@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./doc/ring-v1.svg" height="120" />
+  <img src="./doc/ring-v1.svg" height="240" />
   <h3 align="center">ring</h3>
   <p align="center"><strong>consistent hashing data structure</strong></p>
 
@@ -100,7 +100,7 @@ func main() {
   /* ... */
   ringo.Join("18.54.73.101")
 
-	/*
+  /*
     Lookup successor nodes for the key.
     It returns list of primary & handoff nodes
 
@@ -111,8 +111,8 @@ func main() {
 
     Handoff:
     - empty
-	*/
-	primary, handoff := ringo.SuccessorOf(3, "One ring to rule them all")
+  */
+  primary, handoff := ringo.SuccessorOf(3, "One ring to rule them all")
 
   // Handoff node and its shards to other
   ringo.Handoff("18.54.73.101")
